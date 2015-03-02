@@ -1,10 +1,15 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-" Change spacing for tabbs and autoindent
+" Change spacing for tabs and autoindent
+filetype plugin indent on
 set tabstop=2    " Number of columns to display in a tab
 set shiftwidth=2 " How many columns to indent with autoindnet
 set expandtab    " Insert spaces instead of tab
+
+" Allows tab to autocomplete paths, like in bash
+set wildmode=longest,list
+set wildmode
 
 syntax on
 
