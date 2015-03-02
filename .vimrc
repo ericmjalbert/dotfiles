@@ -14,6 +14,9 @@ set wildmode=list:longest,full
 " Allow mouse scroll
 set mouse=a
 
+" Map F4 to toggle highlighting on/off, and show current value.
+:noremap <F4> :set hlsearch! hlsearch?<CR>
+
 syntax on
 
 " Show line numbers
