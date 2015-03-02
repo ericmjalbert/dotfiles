@@ -8,8 +8,11 @@ set shiftwidth=2 " How many columns to indent with autoindnet
 set expandtab    " Insert spaces instead of tab
 
 " Allows tab to autocomplete paths, like in bash
-set wildmode=longest,list
-set wildmode
+set wildmenu
+set wildmode=list:longest,full
+
+" Allow mouse scroll
+set mouse=a
 
 syntax on
 
