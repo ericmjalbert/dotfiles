@@ -1,0 +1,10 @@
+[user]
+	name = Eric Jalbert
+	email = ericmjalbert@gmail.com
+[core]
+	autocrlf = input
+	safecrlf = true
+	editor = vim
+[credential]
+	helper = cache 
+
