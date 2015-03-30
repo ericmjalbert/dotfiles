@@ -29,6 +29,10 @@ nmap <space> zz
 nmap n nzz
 nmap N Nzz
 
+" Set folding method to indents and default them to be open
+set foldmethod=indent
+set foldlevelstart=20
+
 " Map F4 to toggle highlighting on/off, and show current value.
 :noremap <F4> :set hlsearch! hlsearch?<CR>
 
