@@ -2,9 +2,11 @@
 	name = Eric Jalbert
 	email = ericmjalbert@gmail.com
 [core]
-	autocrlf = input
+	autocrlf = false
 	safecrlf = true
 	editor = vim
 [credential]
 	helper = cache 
 
+[alias]
+	tree = log --graph --decorate --pretty=oneline --abbrev-commit --all
