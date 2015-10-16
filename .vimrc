@@ -1,6 +1,45 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+
+" Vundle for plugin management
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+
+" Allows quick fuzzy searching within Vim
+Bundle 'kien/ctrlp.vim'
+
+" Adds the ability to work with surroundings
+Bundle 'tpope/vim-surround'
+
+" Provides syntax checking for certain file types
+Bundle 'scrooloose/syntastic'
+
+" Provides a directory tree explorer
+Bundle 'scrooloose/nerdtree'
+
+" Provides many commenting operations and styles
+Bundle 'scrooloose/nerdcommenter'
+
+" Provides syntax formating for markdown files
+Bundle 'plasticboy/vim-markdown'
+
+" Shows the git diff in the gutter
+Bundle 'mhinz/vim-signify'
+
+" Provides a better status line
+Bundle 'bling/vim-airline'
+
+" A code-completion engine for Vim
+Bundle 'Valloric/YouCompleteMe'
+
+" A Git wrapper to allow for the usage of Git commands
+Bundle 'tpope/vim-fugitive'
+
+call vundle#end()
+
+
 " Set .tex to latex
 let g:tex_flavor='latex'
 
